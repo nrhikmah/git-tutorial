@@ -1,0 +1,100 @@
+.header {
+	background: #29487d;
+	color: white;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	/*display: flex;*/
+}
+/*karena sama-sama berwidth 50% makan di satuin aja
+.wrapLogo {
+	width: 50%;
+}
+
+.wrapSignIn {
+	width: 50%;
+} jadiiii*/
+.widhtAll {
+	width: 50%;
+}
+
+karena semua perintahnya sama saja maka kita satukan aja
+.wrapEmail {
+	margin: 0 8px;
+	/*display: flex;
+	flex-direction: column;*/
+
+}
+
+.wrapSandi {
+	margin: 0 8px;
+	/*display: flex;
+	flex-direction: column;*/
+
+}
+
+.wrapButtonMasuk{
+	margin: 0 8px;
+	justify-content: center;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 0;
+	/*display: flex;
+	flex-direction: column;*/
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+#fb {
+	font-weight: bold;
+	font-size: 2.5rem;
+	margin-top: 8px;
+}
+
+.wrapDaftarGratis {
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+#dftr{
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 5px;
+}
+
+#gratis {
+	font-size: 19px;
+	font-weight: normal;
+}
+
+.margin-Bottom {
+	margin-bottom: 5px;
+}
+
+.wrapInfo {
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	margin-top: 40px;
+	width: 450px;
+	word-spacing: -1px;
+
+}
